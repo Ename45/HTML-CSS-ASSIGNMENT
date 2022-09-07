@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  padding: 50px 10px 10px 50px;
+  background: linear-gradient(rgba(87, 10, 41, 0.7), rgba(87,
+    10,
+    41, 0.99)), url(/Asset/Images/pomegranate-196800_640.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  position: relative;
+}
+.navbar{
+  margin-bottom: 30px;
+}
+.navlinks ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: end;
+}
+.navlinks ul li{
+  padding-right: 50px;
+}
+.navlinks ul li a{
+  text-decoration: none;
+  color: lightblue;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: 3px;
+}
+.header h1{
+  color: grey;
+  letter-spacing: 10px;
+  text-align: center;
+  margin-top: 120px;
+}
+.container{
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  /* padding: 20px; */
+}
+.variety{
+  display: flex;
+  margin-top: 30px;
+}
+.variety img{
+  width: 33.3%;
+  border-radius: 10px;
+}
+.box .column{
+  display: flex;
+  margin-bottom: 30px;
+}
+.column .border{
+  border: 2px solid grey;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 10px;
+  letter-spacing: 1px;
+  /* flex-basis: 80%; */
+}
+.fresh-fruit h3{
+  color: grey;
+  margin-bottom: 20px;
+}
+.fresh-fruit p{
+  color: blue;
+  font-size: 18px;
+}
+.fruit-salad h3{
+  color: grey;
+  margin-bottom: 20px;
+}
+.fruit-salad p{
+  color: blue;
+  font-size: 18px;
+}
+.fruit-drinks h3{
+  color: grey;
+  margin-bottom: 20px;
+}
+.fruit-drinks p{
+  color: blue;
+  font-size: 18px;
+}
+@media screen and (max-width: 584px){
+  .navlinks ul li a {
+      font-size: 10px;
+    }  
+    .header h1 {
+      font-size: 18px;
+    }
+}
+@media screen and (max-width: 434px){
+.navlinks ul li{
+  padding-right: 20px;
+}
+.navlinks ul li a{
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+  .box .column {
+    flex-direction: column;
+  }
+  .column .border {
+    border: 1px solid grey;
+    margin-bottom: 1px;
+  }
+    .header h1 {
+      font-size: 12px;
+      letter-spacing: 3px;
+    }
+  .fresh-fruit h3{
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+.fresh-fruit p{
+  font-size: 10px;
+}
+.fruit-salad h3{
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+.fruit-salad p{
+  font-size: 10px;
+}
+.fruit-drinks h3{
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+.fruit-drinks p{
+  font-size: 10px;
+}
+}

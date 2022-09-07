@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 50px 10px 10px 50px;
+  background: linear-gradient(rgba(87, 10, 41, 0.7), rgba(87,
+        10,
+        41, 0.99)), url(/Asset/Images/pomegranate-196800_640.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  position: relative;
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+.navlinks ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: end;
+}
+
+.navlinks ul li {
+  padding-right: 50px;
+}
+
+.navlinks ul li a {
+  text-decoration: none;
+  color: lightblue;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: 3px;
+}
+
+.header h1 {
+  color: grey;
+  letter-spacing: 10px;
+  text-align: center;
+  margin-top: 120px;
+}
+.container{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.container h1{
+  color: grey;
+  text-align: center;
+}
+
+.about-list {
+  color: blue;
+  font-family: 'Taviraj', serif;
+  font-size: 18px;
+  margin-left: 10%;
+}
+.about-list span {
+  color: grey;
+  letter-spacing: 3px;
+  font-family: 'Taviraj', serif;
+  font-weight: 600;
+}
+.about-list ul li {
+  margin-left: 25px;
+  list-style-type: square;
+  margin-bottom: -10px;
+}
+@media screen and (max-width: 584px) {
+  .navlinks ul li a {
+    font-size: 10px;
+  }
+
+  .header h1 {
+    font-size: 18px;
+  }
+  .container h1{
+  font-size: 24px;
+}
+
+.about-list {
+  font-size: 15px;
+}
+}
+
+@media screen and (max-width: 434px) {
+  .navlinks ul li {
+    padding-right: 20px;
+  }
+
+  .navlinks ul li a {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+    .container h1{
+  font-size: 18px;
+  }
+.about-list {
+  font-size: 12px;
+  }
+}
